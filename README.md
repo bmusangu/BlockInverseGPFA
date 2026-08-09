@@ -2,6 +2,7 @@
 
 [![Automated Tests](https://github.com/CausalityInMotion/BlockInverseGPFA/actions/workflows/tests.yml/badge.svg)](https://github.com/CausalityInMotion/BlockInverseGPFA/actions/workflows/tests.yml)
 [![Documentation Status](https://readthedocs.org/projects/blockinversegpfa/badge/?version=latest)](https://blockinversegpfa.readthedocs.io/en/latest/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21862073.svg)](https://doi.org/10.5281/zenodo.21862073)
 
 This package provides a Python implementation of **Gaussian Process Factor Analysis (GPFA)** that incorporates a novel approach to efficiently handle variable-length time series data. Building on the original method by [Byron Yu et al. (2009)](https://papers.nips.cc/paper/2009/hash/6c1b887a379c4f0c2c621f305d15f6b0-Abstract.html), this implementation introduces a **block-matrix–based inversion strategy** that reuses kernel computations across trials of different lengths.
 
