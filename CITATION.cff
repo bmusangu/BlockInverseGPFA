@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+type: software
+title: "BlockInvGPFA"
+abstract: >-
+  A scikit-learn-compatible implementation of Gaussian-process factor
+  analysis using block matrix inversion for efficient inference with
+  variable-length time series.
+authors:
+  - family-names: "Musangu"
+    given-names: "Brooks M."
+    email: "brooks_musangu@hms.harvard.edu"
+    affiliation: "Department of Neurobiology, Harvard Medical School"
+    orcid: "https://orcid.org/0000-0002-7137-3707"
+  - family-names: "Drugowitsch"
+    given-names: "Jan"
+    email: "jan_drugowitsch@hms.harvard.edu"
+    affiliation: "Department of Neurobiology, Harvard Medical School"
+    orcid: "https://orcid.org/0000-0002-7846-0408"
+version: "0.1.0"
+license: "BSD-3-Clause"
+repository-code: "https://github.com/CausalityInMotion/BlockInverseGPFA"
+url: "https://blockinversegpfa.readthedocs.io/en/latest/"
+keywords:
+  - "Gaussian Processes"
+  - "block matrices"
+  - "latent variable models"

@@ -1,5 +1,4 @@
 # ...
-# Copyright 2021 Brooks M. Musangu and Jan Drugowitsch.
 # license Modified BSD, see LICENSE.txt for details.
 # ...
 name: CI Tests and Docs
@@ -12,8 +11,12 @@ on:
 
 jobs:
   test:
-    name: Run Pytest Suite
+    name: Test Python ${{ matrix.python-version }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
 
     steps:
       - name: Checkout repository
@@ -22,7 +25,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: ${{ matrix.python-version }}
 
       - name: Install package and test dependencies
         run: |
@@ -44,7 +47,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.13"
 
       - name: Install Pandoc
         run: |
