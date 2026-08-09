@@ -1,6 +1,4 @@
 # ...
-# Copyright 2021 Brooks M. Musangu and Jan Drugowitsch.
-# Copyright 2014-2020 by the Elephant team.
 # Modified BSD, see LICENSE.txt for details.
 # ...
 

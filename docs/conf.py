@@ -5,7 +5,6 @@
 
 import sys
 import os
-from datetime import date
 
 # include root path to allow autodoc to find blockgpfa module
 sys.path.insert(0, os.path.abspath('../'))
@@ -24,9 +23,8 @@ builddir = os.path.abspath(os.path.join(os.path.dirname(__file__), '_build'))
 
 project = 'BlockInvGPFA Documentation'
 authors = 'Brooks M. Musangu and Jan Drugowitsch'
-copyright = "2021-{this_year}, {authors}".format(
-    this_year=date.today().year, authors=authors)
-release = '0.1.0.'
+copyright = f"2021, {authors}"
+release = '0.1.0'
 version = '0.1.0'
 
 # -- General configuration ---------------------------------------------------

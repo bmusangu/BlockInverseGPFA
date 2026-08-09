@@ -1,5 +1,4 @@
 # ...
-# Copyright 2021 Brooks M. Musangu and Jan Drugowitsch.
 # license Modified BSD, see LICENSE.txt for details.
 # ...
 
@@ -53,7 +52,7 @@ class EventTimesToCounts(sklearn.base.TransformerMixin):
     Examples
     --------
     >>> import numpy as np
-    >>> from gpfa import EventTimesToCounts
+    >>> from blockinvgpfa import EventTimesToCounts
     >>> bin_size = 0.1  # [s]
     >>> t_stop = 0.8  # [s]
     >>> X = [

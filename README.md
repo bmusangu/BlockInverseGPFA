@@ -82,10 +82,6 @@ Tests are automatically run via [GitHub Actions](https://github.com/CausalityInM
 Modified BSD License based on Elephant, see [LICENSE.txt](LICENSE.txt) for details.
 
 
-## Copyright
-
-:copyright: 2021-2025 Brooks M. Musangu and Jan Drugowitsch
-
 ## Acknowledgments
 
 See [acknowledgments](docs/acknowledgments.rst).
